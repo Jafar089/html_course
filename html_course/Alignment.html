@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment in CSS</title>
+    <style>
+
+        .container{
+            
+            width: 700px;
+            border: 4px solid purple;
+            margin: 50px 250px;
+            background-color: rgb(65, 240, 138);
+
+        }
+
+        .item{
+            border: 2px solid rgb(247, 5, 5);
+            padding: 12px 10px;
+            margin: 15px 15px;
+            background: sandybrown;
+        }
+
+        #fruit{
+            float: left;
+            width: 40%;
+        }
+
+        #computer{
+            float:right;
+            width: 40%;
+        }
+
+        #stationary{
+            clear:both;
+            width: 50%;
+            margin: 2px 160px;
+        }
+
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 >Welcome to My store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="f" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur placeat doloremque, libero ducimus nemo at aliquam dolorem obcaecati sint.</p>
+        </div>
+        
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="c" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur placeat doloremque, libero ducimus nemo at aliquam dolorem obcaecati sint.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Staitionary</h3>
+            <p id="s" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur placeat doloremque, libero ducimus nemo at aliquam dolorem obcaecati sint.</p>
+        </div>
+    </div>
+</body>
+</html>
